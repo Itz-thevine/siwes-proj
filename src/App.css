@@ -1,0 +1,53 @@
+.landing_item_background {
+  font-family: Playfair Display;
+  font-size: 90px;
+  color: #00322F;
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 67px;
+}
+.inverted_text {
+	color: #bfbfbf;
+	transform: rotateX(180deg);
+	margin-top: -18px;
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 90px;
+}
+.upright_text {
+  font-size: 90px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.item_serach_container {
+  margin-bottom: 20px;
+}
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.ant-tabs-tab {
+  font-family: Playfair Display;
+  font-size: 33px;
+  line-height: 43px;
+  color: #848484 !important;
+}
+.ant-tabs-tab:hover {
+  color: #848484 !important;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #FB002D !important;
+}
+.ant-tabs-ink-bar {
+  background: url(./assets/images/tab_img.png) !important;
+  height: 17px !important;
+  /* background-position: center;
+  background-size: cover; */
+  /* width: 74px !important; */
+  margin: auto;
+}

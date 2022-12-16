@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+hr{
+    color: #ff9cae;
+    border: 0.7px solid #ff9cae !important;
+}
+
+.businessProfile{
+    padding: 75px 90px;
+}
+
+.sectionOne{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.profileDetails{
+    display: flex;
+    width: 37%;
+    justify-content: space-between;
+}
+
+.mainName{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mainName span{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 7px;
+}
+
+.profileDetails h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    color: #006962;
+    margin: 0px;
+}
+
+.profileImg{
+    margin-left: 15px;
+    height: 130px;
+    width: 130px;
+}
+
+.profileImg img{
+    width: inherit;
+    height: inherit;
+    border-radius: 70px;
+}
+
+.profileRating{
+    display: flex;
+    flex-direction: row;
+}
+
+.profileRating .star{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+    align-items: end;
+}
+
+.star p{
+    margin: 0px;
+}
+
+.profileContact{
+    width: 63%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+}
+.contacts{ 
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 7%;
+}
+
+.phoneNumber{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+}
+.numberControl{
+    display: flex;
+    flex-direction: row;
+}
+.numberControl p{
+    margin-right:7px ;
+}
+
+.num{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sectionTwo{
+    margin: 25px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sectionTwo_wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutBus{
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.aboutDetails{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.aboutMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutMain h1{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: #006962;
+    font-size: 33px;
+    font-weight: 500;
+}
+.line{
+    width: 100%;
+    margin-top: 0px;
+    border-color: #ff9cae ;
+    color: #ff9cae;
+}
+
+.aboutDetails p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.controlTag{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding-left: 15%;
+}
+.tags{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+}
+.tags h1{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: #006962;
+    font-size: 33px;
+    font-weight: 500;
+}
+.tagWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tag{
+    border: 2px solid #c4dddb;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 45px;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.tag p{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.add{
+    background-color: #c4dddb;
+}
+.tag span{
+    display: flex;
+    align-items: center;
+}
+
+.businessImages{
+    height: inherit;
+    width: 63%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bigImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start ;
+}
+.bigImage h1{
+    font-family: 'Poppins', sans-serif;
+    color: #006962;
+    padding-left: 25px;
+}
+
+.businessImages__wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.smallimages{
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+.bigImage__wrapper{
+    border-radius: 40px !important;
+}
+
+.mainImage{
+    background: linear-gradient(0deg, rgba(15,15,15,0.5) 0%, rgba(30,32,33,0.3928743855337079) 47%, rgba(36,36,38,0.5) 100%), url('https://images.unsplash.com/photo-1567721913486-6585f069b332?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZHVjdHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+    height: 427px;
+    width: 427px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: contain;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainImageIcon{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    stroke: white;
+    stroke-width: 1 ;
+    
+}
+.mainImage_text{
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: white !important;
+    margin: 0;
+    padding-left: 5px !important;
+    font-weight: 300;
+}
+
+.small{
+    margin-top: 15px;
+    cursor: pointer;
+}
