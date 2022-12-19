@@ -26,7 +26,7 @@ function Footer() {
             <img src={macClub} alt='promo' />
           </Col>
         </Row>
-        <p>FINDERR is proudly sponsored by the business organization above. If you are interested in sponsoring us,
+        <p className='footer-note'>FINDERR is proudly sponsored by the business organization above. If you are interested in sponsoring us,
           <span style={{ color: 'red', textDecoration: 'underline' }}> inquire here</span>
         </p>
       </div>
